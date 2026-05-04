@@ -6,7 +6,7 @@ body {
 	text-align: center;
 }
 footer {
-	text-align: center;
+	text-align: right;
 }
 .column {
     display: flex;
