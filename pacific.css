@@ -1,0 +1,61 @@
+body {
+	background-image: linear-gradient(to bottom, #b63a3a, #FFFFFF);
+	color: #d0f501;
+	background-position: right;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+	margin: 15px;
+	padding: 15px;
+	columns: 2;
+	align-items: center;
+	justify-content: center;
+}
+main {
+	background-color: rgb(243, 98, 98);
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: #3399CC;
+	color: yellow;
+	margin: auto;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid black;
+	text-align: center;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid black;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+textarea, input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+nav a {
+	text-decoration: none;
+	transition: background-color 2s;
+}
+nav a:hover {
+	color: yellow;
+	transition: 2s;
+}
